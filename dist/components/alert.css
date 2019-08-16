@@ -8,15 +8,15 @@
   margin-bottom: 0.5rem;
   color: #fff;
   border-radius: 0.25rem;
-  padding-right: 3rem
+  padding-right: 3rem;
 }
 
 .alert .alert-link{
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .alert .alert-icon{
-  margin-right: 0.75rem
+  margin-right: 0.75rem;
 }
 
 .alert button.alert-close{
@@ -27,31 +27,31 @@
   right: 0;
   top: 0;
   margin-right: 0.75rem;
-  margin-top: 0.75rem
+  margin-top: 0.75rem;
 }
 
 .alert-primary{
-  background-color: #4299e1
+  background-color: #4299e1;
 }
 
 .alert-secondary{
-  background-color: #2d3748
+  background-color: #2d3748;
 }
 
 .alert-success{
-  background-color: #38a169
+  background-color: #38a169;
 }
 
 .alert-danger{
-  background-color: #e53e3e
+  background-color: #e53e3e;
 }
 
 .alert-warning{
   background-color: #ecc94b;
-  color: #000
+  color: #000;
 }
 
 .alert-info{
   background-color: #81e6d9;
-  color: #000
+  color: #000;
 }

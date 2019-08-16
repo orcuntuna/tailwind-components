@@ -1,0 +1,39 @@
+.badge{
+    @apply inline-block text-center font-semibold text-sm text-white py-1 px-2 rounded leading-none;
+}
+
+.badge-pill{
+    @apply rounded-full;
+}
+
+.badge-primary{
+	@apply bg-blue-500;
+}
+
+.badge-secondary{
+	@apply bg-gray-800;
+}
+
+.badge-success{
+	@apply bg-green-600;
+}
+
+.badge-danger{
+	@apply bg-red-600;
+}
+
+.badge-warning{
+	@apply bg-yellow-500 text-black;
+}
+
+.badge-info{
+	@apply bg-teal-300 text-black;
+}
+
+.badge-light{
+	@apply bg-gray-300 text-black;
+}
+
+.badge-dark{
+	@apply bg-gray-900;
+}

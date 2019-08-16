@@ -1,39 +1,39 @@
 .alert{
-    @apply relative px-4 py-3 my-2 text-white rounded pr-12
+    @apply relative px-4 py-3 my-2 text-white rounded pr-12;
 }
 
 .alert .alert-link{
-	@apply underline
+	@apply underline;
 }
 
 .alert .alert-icon{
-	@apply mr-3
+	@apply mr-3;
 }
 
 .alert button.alert-close{
-	@apply px-2 outline-none absolute right-0 top-0 mr-3 mt-3
+	@apply px-2 outline-none absolute right-0 top-0 mr-3 mt-3;
 }
 
 .alert-primary{
-	@apply bg-blue-500
+	@apply bg-blue-500;
 }
 
 .alert-secondary{
-	@apply bg-gray-800
+	@apply bg-gray-800;
 }
 
 .alert-success{
-	@apply bg-green-600
+	@apply bg-green-600;
 }
 
 .alert-danger{
-	@apply bg-red-600
+	@apply bg-red-600;
 }
 
 .alert-warning{
-	@apply bg-yellow-500 text-black
+	@apply bg-yellow-500 text-black;
 }
 
 .alert-info{
-	@apply bg-teal-300 text-black
+	@apply bg-teal-300 text-black;
 }
