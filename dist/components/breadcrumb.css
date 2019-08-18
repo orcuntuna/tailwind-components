@@ -1,0 +1,42 @@
+.breadcrumb{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #e2e8f0;
+  border-radius: 0.25rem;
+}
+
+.breadcrumb li{
+  margin-right: 0.5rem;
+}
+
+.breadcrumb li:after{
+  margin-left: 0.5rem;
+  content: "/";
+}
+
+.breadcrumb li:last-child:after{
+  margin-left: 0;
+  margin-right: 0;
+  content: "";
+}
+
+.breadcrumb li a{
+  color: #2b6cb0;
+}
+
+.breadcrumb-right{
+  justify-content: flex-end;
+}
+
+.breadcrumb-dark{
+  background-color: #2d3748;
+  color: #fff;
+}
+
+.breadcrumb-dark li a{
+  color: #90cdf4;
+}

@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tailwind Components</title>
-    <link rel="stylesheet" href="../dist/tailwind.css" />
-    <link rel="stylesheet" href="../dist/tailwind-components.css" />
+	<link rel="stylesheet" href="../dist/tailwind-components.css" />
+	<link rel="stylesheet" href="../dist/tailwind.css" />
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
     <style>
 </style>
 </head>
 <body>
 
-    <div class="container mx-auto mt-12" id="alerts">
+    <div class="container mx-auto mt-12" id="alert">
     	<div class="mx-4 md:mx-0">
-    		<h2 class="font-bold text-2xl mb-3 text-gray-900"><a href="#alerts"><i class="fa fa-copy mr-3"></i>Alerts</a></h2>
+    		<h2 class="font-bold text-2xl mb-3 text-gray-900"><a href="#alert"><i class="fa fa-copy mr-3"></i>Alert</a></h2>
 	    	<div class="alert alert-primary">
 	    		<i class="alert-icon fa fa-thumbs-up"></i>Hello, i am a alert and <a href="#!" class="alert-link">i have a link</a>
 	    		<button class="alert-close"><i class="fa fa-times"></i></button>
@@ -43,9 +43,9 @@
     	</div>
 	</div>
 	
-	<div class="container mx-auto mt-12" id="badges">
+	<div class="container mx-auto mt-12" id="badge">
 		<div class="mx-4 md:mx-0">
-			<h2 class="font-bold text-2xl mb-3 text-gray-900"><a href="#badges"><i class="fa fa-copy mr-3"></i>Badges</a></h2>
+			<h2 class="font-bold text-2xl mb-3 text-gray-900"><a href="#badge"><i class="fa fa-copy mr-3"></i>Badge</a></h2>
 			<div>
 				<p class="mb-2 font-semibold text-lg">Standart Badges:</p>
 				<span class="badge badge-primary">Primary</span>
@@ -79,6 +79,33 @@
 				<a href="#!" class="badge badge-light">Light</a>
 				<a href="#!" class="badge badge-dark">Dark</a>
 			</div>
+		</div>
+	</div>
+
+	<div class="container mx-auto mt-12" id="breadcrumb">
+		<div class="mx-4 md:mx-0">
+			<h2 class="font-bold text-2xl mb-3 text-gray-900"><a href="#breadcrumb"><i class="fa fa-copy mr-3"></i>Breadcrumb</a></h2>
+			<p class="mb-2 font-semibold text-lg">Standart Breadcrumb:</p>
+			<ul class="breadcrumb mb-3">
+				<li><a href="#!">Homepage</a></li>
+				<li><a href="#!">Technology</a></li>
+				<li><a href="#!">Laptop</a></li>
+				<li>macBook</li>
+			</ul>
+			<p class="mb-2 font-semibold text-lg">Dark Breadcrumb:</p>
+			<ul class="breadcrumb breadcrumb-dark mb-3">
+				<li><a href="#!">Homepage</a></li>
+				<li><a href="#!">Technology</a></li>
+				<li><a href="#!">Laptop</a></li>
+				<li>macBook</li>
+			</ul>
+			<p class="mb-2 font-semibold text-lg">Right Aligned Breadcrumb:</p>
+			<ul class="breadcrumb breadcrumb-right mb-3">
+				<li><a href="#!">Homepage</a></li>
+				<li><a href="#!">Technology</a></li>
+				<li><a href="#!">Laptop</a></li>
+				<li>macBook</li>
+			</ul>
 		</div>
 	</div>
 
