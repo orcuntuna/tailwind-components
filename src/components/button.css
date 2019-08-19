@@ -1,0 +1,118 @@
+.btn{
+    @apply inline-block px-4 py-2 rounded cursor-pointer border;
+}
+
+.btn:hover{
+    transition: 0.3s;
+}
+
+.btn-primary{
+    @apply bg-blue-500 border-blue-500 text-white;
+}
+
+.btn-outline-primary{
+    @apply text-blue-500 border-blue-500 bg-transparent;
+}
+
+.btn-outline-primary:hover{
+    @apply bg-blue-500 border-blue-500 text-white;
+    transition: 0.3s;
+}
+
+.btn-secondary{
+    @apply bg-gray-800 border-gray-800 text-white;
+}
+
+.btn-outline-secondary{
+    @apply text-gray-800 border-gray-800 bg-transparent;
+}
+
+.btn-outline-secondary:hover{
+    @apply bg-gray-800 border-gray-800 text-white;
+}
+
+.btn-success{
+    @apply bg-green-600 border-green-600 text-white;
+}
+
+.btn-outline-success{
+    @apply text-green-600 border-green-600 bg-transparent;
+}
+
+.btn-outline-success:hover{
+    @apply bg-green-600 border-green-600 text-white;
+}
+
+.btn-danger{
+    @apply bg-red-600 border-red-600 text-white;
+}
+
+.btn-outline-danger{
+    @apply text-red-600 border-red-600 bg-transparent;
+}
+
+.btn-outline-danger:hover{
+    @apply bg-red-600 border-red-600 text-white;
+}
+
+.btn-warning{
+    @apply bg-yellow-500 border-yellow-500 text-black;
+}
+
+.btn-outline-warning{
+    @apply text-yellow-500 border-yellow-500 bg-transparent;
+}
+
+.btn-outline-warning:hover{
+    @apply bg-yellow-500 border-yellow-500 text-black;
+}
+
+.btn-info{
+    @apply bg-teal-300 border-teal-300 text-black;
+}
+
+.btn-outline-info{
+    @apply text-teal-300 border-teal-300 bg-transparent;
+}
+
+.btn-outline-info:hover{
+    @apply bg-teal-300 border-teal-300 text-black;
+}
+
+.btn-light{
+    @apply bg-gray-300 border-gray-300 text-black;
+}
+
+.btn-outline-light{
+    @apply text-gray-300 border-gray-300 bg-transparent;
+}
+
+.btn-outline-light:hover{
+    @apply bg-gray-300 border-gray-300 text-black;
+}
+
+.btn-dark{
+    @apply bg-gray-900 border-gray-900 text-white;
+}
+
+.btn-outline-dark{
+    @apply text-gray-900 border-gray-900 bg-transparent;
+}
+
+.btn-outline-dark:hover{
+    @apply bg-gray-900 border-gray-900 text-white;
+}
+
+.btn-sm{
+    @apply px-2 py-1 text-sm;
+}
+
+.btn-lg{
+    @apply px-6 py-3 text-lg;
+}
+
+.btn-block{
+    @apply block w-full;
+}
+
+
